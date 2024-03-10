@@ -14,8 +14,9 @@
            int tot =(a+b+c+d+e);
 
                int avg = tot / 5;
+
                System.out.println("Total :" + tot);
-               System.out.println("Percentage :" + avg);
+               System.out.println("average :" + avg);
                if (avg >= 90)
                    System.out.println("Grade O");
                else if (avg >= 80)
