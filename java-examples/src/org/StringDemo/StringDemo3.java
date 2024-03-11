@@ -1,3 +1,5 @@
+package org.StringDemo;
+
 //wap to find out index of 'a' in given string
 public class StringDemo3 {
     public static void main (String[]args){
