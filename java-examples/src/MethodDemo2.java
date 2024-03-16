@@ -1,10 +1,14 @@
 public class MethodDemo2 {
-    public static void main(String[] args) {
-        String s1 = "Hello";
-        String s2 = "world";
-        String s3 = s1.concat(s2);
-        System.out.println(s3);
-
+    static String StringConcat(String txt1, String txt2 ) {
+        return txt1.concat(txt2);
     }
-}
+
+        public static void main(String[]args){
+
+            MethodDemo2 concat= new MethodDemo2();
+            String result=concat.StringConcat("hello","world");
+            System.out.println(result);
+
+        }
+    }
 
